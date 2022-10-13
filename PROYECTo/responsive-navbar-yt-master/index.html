@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <link rel="stylesheet" href="/PROYECTo/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/7e5b2d153f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="#" class="logo nav-link">Logo</a>
+        <button class="nav-toggle" aria-label="Abrir menú">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">INICIO</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">FICHAS</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">LOGIN</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">REGISTRO</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link"
+              >Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>    
+      <div id="menu_Profesor">
+        <div id ="menus">
+        </div>
+      </div>
+      <div class="conteiner-slider">
+        <div class="slider" id="slider">
+              <div class="slider__section">
+                  <img src="/PROYECTo/img/descarga (3).jpeg" alt="" class="slider__img">
+              </div>
+              <div class="slider__section">
+                  <img src="/PROYECTo/img/images.jpeg" alt="" class="slider__img">
+              </div>
+              <div class="slider__section">
+                <img src="/PROYECTo/img/Intranet.jpg" alt="" class="slider__img">
+              </div>
+              <div class="slider__section">
+                <img src="/PROYECTo/img/seguridad-intranets-cover-blog.png" alt="" class="slider__img">
+               </div>
+        </div>
+            <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+            <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+      </div>
+        <script src="slider.js"></script>
+    </main>
+  </body>
+</html>
